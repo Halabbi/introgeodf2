@@ -10,6 +10,8 @@ Para este ejercicio seleccionamos un subconjunto de municipios de un una unidad 
 
 EJERCICIO 3
 
+En este ejercicio, usamos la función dissolver para agregar datos por región y crear mapas coropléticos. Luego, calculó los envolventes convexas (convex_hull) para subconjuntos de aeropuertos en Rsuai, utilizando primero la disolución y la unión (union_all) de geometrías para generar un solo polígono representativo y visualizarlo sobre el mapa.
+
 EJERCICIO 4
 
 Se utilizó técnicas de superposición espacial para dividir los municipios de Rusia en cuatro regiones (norte, sur, este y oeste) basadas en los centroides. Luego, aplicamos operaciones geoespaciales como intersección para obtener las áreas comunes entre el norte y sur, así como entre el este y oeste. Usamos unión para combinar estas intersecciones, creando una región central unificada, y realizamos una limpieza de datos. Finalmente, aplicamos diferencia para obtener áreas que no están en la región central y diferencia simétrica para identificar geometrías exclusivas de cada región, visualizando los resultados en mapas.
